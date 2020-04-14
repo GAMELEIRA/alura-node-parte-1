@@ -1,0 +1,24 @@
+{
+  "name": "alura-node-parte-1",
+  "version": "1.0.0",
+  "description": "Este repositório têm como objetivo alocar os projetos que serão desenvolvidos com o decorrer do curso de node.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GAMELEIRA/alura-node-parte-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GAMELEIRA/alura-node-parte-1/issues"
+  },
+  "homepage": "https://github.com/GAMELEIRA/alura-node-parte-1#readme",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
