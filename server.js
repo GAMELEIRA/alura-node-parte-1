@@ -1,22 +1,9 @@
-const http = require('http');
+const app = require('./src/config/custom-express.js');
 
-const servidor = http.createServer((requisicao, resposta) => {
+app.listen(3000, () => {
 
-    let html = '';
-
-    if (requisicao.url == '/') {
-
-        html = '<h1>GABRIEL GAMELEIRA DOS SANTOS! O MAIS BRABO!<h1>';
-
-    } else if (requisicao.url == '/livros') {
-
-        html = '<h1> GAMESGAMES! O MAIS BRABO!<h1>';
-
-    }
-
-    resposta.end(html);
+    console.log(`Servidor startado na porta 3000!`);
 
 });
 
-servidor.listen(3000);
 
